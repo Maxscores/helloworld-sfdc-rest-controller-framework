@@ -6,7 +6,7 @@ Here are the challenges:
 REST Endpoint Challenges
 
 Goal: 
-1) Build a GET endpoint at `/v1/helloworld`
+## Build a GET endpoint at `/v1/helloworld`
 request Body: none
 response:
 ```
@@ -17,7 +17,7 @@ response:
 }
 ```
 
-2) Build a POST endpoint at '/v1/helloworld'
+## Build a POST endpoint at '/v1/helloworld'
 request Body:
 ```
 {
@@ -36,10 +36,9 @@ response Body:
 }
 ```
 
-2b) validate the inputs, make sure that both firstName and lastName are sent in the body. If not, return an error message using the error list and return a 400 status code.
+bonus) validate the inputs, make sure that both firstName and lastName are sent in the body. If not, return an error message using the error list and return a 400 status code.
 
-
-3) Build a POST endpoint at '/v1/blogs' (using the BlueWave_Blog__c object) 
+## Build a POST endpoint at '/v1/blogs' (using the BlueWave_Blog__c object) 
 You'll need to insert a Blog object into the database and return the Id of the object
 request Body:
 ```
@@ -65,10 +64,10 @@ response Body:
 }
 ```
 
-3b) Setup validations so that you have all of the fields necessary.
+bonus) Setup validations so that you have all of the fields necessary.
 
 
-4) Build a GET endpoint at '/v1/blogs/{id}' <- you'll need to get the id from the URL
+## Build a GET endpoint at '/v1/blogs/{id}' <- you'll need to get the id from the URL
 You'll need to return a Blog object with the Id that is passed in.
 
 request Body: none
