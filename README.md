@@ -8,6 +8,7 @@ REST Endpoint Challenges
 ## Exercises 
 ### Build a GET endpoint at '/v1/helloworld'
 request Body: none
+
 response:
 ```
 {
@@ -73,6 +74,7 @@ Setup validations so that you have all of the fields necessary.
 You'll need to return a Blog object with the Id that is passed in.
 
 request Body: none
+
 response Body:
 ```
 {
